@@ -7,7 +7,7 @@ Here, there is a generalized model of the circuit:
 
 ![fig1](img/r2r-ladder.png)
 
-The model of DAC utilized here uses up to 10 bits to represent a binary value and a maximum output 10.23 Volts, correlating to the number of 1023 (maximum value from 1 0 bits). By calculating in a recursive way the Thevenin equivalent, the code is capable of finding how much the final value differs from the expected (10.23 in this case).
+The model of DAC utilized here uses up to 10 bits to represent a binary value and a maximum output 10.23 Volts, correlating to the number of 1023 (maximum value from 0 bits). By calculating in a recursive way the Thevenin equivalent, the code is capable of finding how much the final value differs from the expected (10.23 in this case).
 
 The result is a graph like the one below.
 
